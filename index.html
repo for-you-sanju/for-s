@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts"></div>
+
+    <section class="welcome">
+        <h1>Welcome, My Love! 🌸</h1>
+        <p>Thank you for accepting me. You make my world beautiful! ❤️</p>
+        <div class="buttons">
+            <button onclick="showPage('gallery')">Photos 📸</button>
+            <button onclick="showPage('letter')">Letter 💌</button>
+        </div>
+    </section>
+
+    <section class="page hidden" id="gallery">
+        <h2>Our Beautiful Moments</h2>
+        <div class="gallery">
+            <img src="1st.jpg" alt="Memory 1">
+            <img src="2nd.jpg" alt="Memory 2">
+            <img src="3rd.jpg" alt="Memory 3">
+        </div>
+        <button onclick="goHome()">Back to Home</button>
+    </section>
+
+    <section class="page hidden" id="letter">
+        <h2>Dear Love,</h2>
+        <p>
+            You are the most precious part of my life. Every moment with you feels like magic.  
+            Thank you for being mine. I promise to cherish you forever! 💖
+        </p>
+        <button onclick="goHome()">Back to Home</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
